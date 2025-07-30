@@ -11,6 +11,6 @@ it's simple by choice — no fluff, no animations, no tracking.
 
 ## 
 
-this is still on going because I am still learning django. i didn't mean to make this project but medium needs a subscription and i wanted to learn django at some point of the other. So. This.
+this is still on going because I am still learning django.
 
 
