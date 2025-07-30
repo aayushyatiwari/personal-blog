@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}home | aayush's blog{% endblock %}
+
+{% block content %}
+<h1>aayush's writings</h1>
+
+<p>Hello, I'm aayush. I write about what I learn. I hope you find meaning/learning in what this text has to offer. This website was designed just like I am in real life — a little to-the-point and tbh, bland.</p>
+<p><a href="/about">More about me →</a></p>
+
+<hr>
+
+<h2>latest posts</h2>
+<ul>
+  {% for post in posts %}
+    <li><a href="/{{ post.slug }}">{{ post.title }}</a></li>
+  {% empty %}
+    <p>No posts yet. Start typing bro.</p>
+  {% endfor %}
+</ul>
+{% endblock %}
